@@ -1,0 +1,21 @@
+This will generate your blog, copy the generated files into _deploy/, add them to git, commit and push them up to the master branch. In a few seconds you should get an email from Github telling you that your commit has been received and will be published on your site.
+
+【金价连跌6天 银价回到一年前】美元走强加剧贵金属年末跌势，市场交投清淡。北京时间20:30，2月期金在电子盘交易中跌33.2美元，至1530.9美元/盎司，跌幅为2.12%。稍早跌至1523.9美元，创今年7月初以来新低。银价下跌2.85%，报26.38美元/盎司，直接回到1年前，也回到了今年内最低点附近。
+
+---
+layout: post
+title: "Zombie"
+date: 2011-12-29 21:27
+comments: true
+categories: test
+---
+
+
+
+发生的地方
+福克斯的疯狂降价会计师地方   
+
+斯蒂芬离开的身份晋级赛的法律上地方fsdfjsdlfds
+
+
+fsdfsdf
