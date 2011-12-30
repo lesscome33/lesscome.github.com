@@ -1,29 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://lesscome.github.com/blog/2011/12/28/hello-world/</loc>
-        <lastmod>2011-12-28T23:10:57+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://lesscome.github.com/blog/2011/12/29/test/</loc>
-        <lastmod>2011-12-29T20:14:28+08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://lesscome.github.com/blog/2011/12/29/zombie-ninjas-attack-a-survivors-retrospective/
-        </loc>
-        <lastmod>2011-12-29T21:25:04+08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://lesscome.github.com/blog/2011/12/29/zombie/</loc>
-        <lastmod>2011-12-29T21:42:51+08:00</lastmod>
-    </url>
-    <url>
         <loc>http://lesscome.github.com/blog/archives/</loc>
-        <lastmod>2011-12-29T21:42:51+08:00</lastmod>
+        <lastmod>2011-12-28T22:38:47+08:00</lastmod>
     </url>
     <url>
         <loc>http://lesscome.github.com/</loc>
-        <lastmod>2011-12-29T21:42:51+08:00</lastmod>
+        <lastmod>2011-12-28T22:38:48+08:00</lastmod>
     </url>
 </urlset>
