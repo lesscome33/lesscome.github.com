@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[LESSCO.ME]]></title>
-  <link href="http://lesscome.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: 茶水间 | LESSCO.ME]]></title>
+  <link href="http://lesscome.github.com/blog/categories/茶水间/atom.xml" rel="self"/>
   <link href="http://lesscome.github.com/"/>
   <updated>2011-12-31T21:58:56+08:00</updated>
   <id>http://lesscome.github.com/</id>
