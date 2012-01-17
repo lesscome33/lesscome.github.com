@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>LESSCO.ME</title>
+  <title>Tips to avoid bitmap OOM - LESSCO.ME</title>
   <meta name="author" content="lesscome">
 
   
@@ -19,7 +19,7 @@ provide buffer to decode bitmap and less memory allocated from native heap code 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://lesscome.github.com">
+  <link rel="canonical" href="http://lesscome.github.com/blog/2012/01/17/tips-to-avoid-bitmap-oom">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -75,15 +75,12 @@ provide buffer to decode bitmap and less memory allocated from native heap code 
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2012/01/17/tips-to-avoid-bitmap-oom/">Tips to Avoid Bitmap OOM</a></h1>
+      <h1 class="entry-title">Tips to Avoid Bitmap OOM</h1>
     
     
       <p class="meta">
@@ -106,7 +103,7 @@ provide buffer to decode bitmap and less memory allocated from native heap code 
   </header>
 
 
-  <div class="entry-content"><ul>
+<div class="entry-content"><ul>
 <li>using BitmapFactory.Options.inSampleSize</li>
 <li>provide buffer to decode bitmap and less memory allocated from native heap</li>
 </ul>
@@ -126,22 +123,16 @@ provide buffer to decode bitmap and less memory allocated from native heap code 
     retBitmap = BitmapFactory.decodeStream(new FileInputStream(f), null, options);
 </code></pre>
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2011/12/31/2012-is-coming/">2012 Is Coming</a></h1>
-    
-    
-      <p class="meta">
-        
+  
+
+<span class="byline author vcard">Posted by <span class="fn">lesscome</span></span>
+
+      
 
 
 
@@ -153,29 +144,38 @@ provide buffer to decode bitmap and less memory allocated from native heap code 
   
 
 
-<time datetime="2011-12-31T21:50:00+08:00" pubdate data-updated="true">Dec 31<span>st</span>, 2011</time>
-        
-      </p>
+<time datetime="2012-01-17T21:53:00+08:00" pubdate data-updated="true">Jan 17<span>th</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/android/'>android</a>
+  
+</span>
+
+
+    </p>
     
-  </header>
-
-
-  <div class="entry-content"><p>再过两个小时，2012就将到来。在这个时刻，开始一个新的Blog再好不过。</p>
-
-<p>Better late than never，这句话作为新年祝福送给这个Blog，和写它的人。</p>
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://lesscome.github.com/blog/2012/01/17/tips-to-avoid-bitmap-oom/" data-via="" data-counturl="http://lesscome.github.com/blog/2012/01/17/tips-to-avoid-bitmap-oom/" >Tweet</a>
+  
+  
+  
 </div>
-  
-  
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2011/12/31/2012-is-coming/" title="Previous Post: 2012 is coming">&laquo; 2012 is coming</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
 </div>
+
 <aside class="sidebar">
   
     <section>
@@ -200,6 +200,7 @@ provide buffer to decode bitmap and less memory allocated from native heap code 
 
   
 </aside>
+
 
     </div>
   </div>

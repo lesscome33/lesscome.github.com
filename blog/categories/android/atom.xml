@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[LESSCO.ME]]></title>
-  <link href="http://lesscome.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: android | LESSCO.ME]]></title>
+  <link href="http://lesscome.github.com/blog/categories/android/atom.xml" rel="self"/>
   <link href="http://lesscome.github.com/"/>
   <updated>2012-01-17T22:03:31+08:00</updated>
   <id>http://lesscome.github.com/</id>
@@ -37,17 +37,6 @@
     options.inPurgeable = true;
     retBitmap = BitmapFactory.decodeStream(new FileInputStream(f), null, options);
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[2012 is coming]]></title>
-    <link href="http://lesscome.github.com/blog/2011/12/31/2012-is-coming/"/>
-    <updated>2011-12-31T21:50:00+08:00</updated>
-    <id>http://lesscome.github.com/blog/2011/12/31/2012-is-coming</id>
-    <content type="html"><![CDATA[<p>再过两个小时，2012就将到来。在这个时刻，开始一个新的Blog再好不过。</p>
-
-<p>Better late than never，这句话作为新年祝福送给这个Blog，和写它的人。</p>
 ]]></content>
   </entry>
   
