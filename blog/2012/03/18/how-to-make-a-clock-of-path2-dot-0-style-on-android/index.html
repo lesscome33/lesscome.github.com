@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Tips to avoid bitmap OOM - LESSCO.ME</title>
+  <title>how to make a clock of path2.0 style on android - LESSCO.ME</title>
   <meta name="author" content="lesscome">
 
   
-  <meta name="description" content="using BitmapFactory.Options.inSampleSize
-provide buffer to decode bitmap and less memory allocated from native heap code snippets : Options options &hellip;">
+  <meta name="description" content="If you have been using path 2.0, you must be impressed by it&#8217;s UI design. It&#8217;s so great that I installed the app both of iOS and android &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +18,7 @@ provide buffer to decode bitmap and less memory allocated from native heap code 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://lesscome.github.com/blog/2012/01/17/tips-to-avoid-bitmap-oom">
+  <link rel="canonical" href="http://lesscome.github.com/blog/2012/03/18/how-to-make-a-clock-of-path2-dot-0-style-on-android">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -81,7 +80,7 @@ provide buffer to decode bitmap and less memory allocated from native heap code 
   
   <header>
     
-      <h1 class="entry-title">Tips to Avoid Bitmap OOM</h1>
+      <h1 class="entry-title">How to Make a Clock of path2.0 Style on Android</h1>
     
     
       <p class="meta">
@@ -97,32 +96,21 @@ provide buffer to decode bitmap and less memory allocated from native heap code 
   
 
 
-<time datetime="2012-01-17T21:53:00+08:00" pubdate data-updated="true">Jan 17<span>th</span>, 2012</time>
+<time datetime="2012-03-18T21:49:00+08:00" pubdate data-updated="true">Mar 18<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><ul>
-<li>using BitmapFactory.Options.inSampleSize</li>
-<li>provide buffer to decode bitmap and less memory allocated from native heap</li>
-</ul>
+<div class="entry-content"><p>If you have been using path 2.0, you must be impressed by it&#8217;s UI design. It&#8217;s so great that I installed the app both of iOS and android, and by comparing them, I discovered a little difference between them that a clock shows feed time on iOS but not exists on android. I don&#8217;t know why they did not develope the clock on android, and no metter what reason is, I&#8217;d like to make one.</p>
 
+<p>I don&#8217;t familiar with animation on android, so it takes some times to look up documentation, finally I did it after about 3 hours.</p>
 
-<p><em>code snippets :</em></p>
+<p><img src="http://b85.photo.store.qq.com/psb?/880dfc02-646d-4761-8a05-e0bb76f8749e/8jcWEd6Bz*yIKSFl7HUbVa0PwFpj3Yg5mERfhiUYwUk!/b/Ya.VrjIbYQAAYpkxszLiYQAA&amp;w=392&amp;h=5000" alt="image" /></p>
 
-<pre><code>    Options options = new Options();
-    options.inJustDecodeBounds = true;
-    BitmapFactory.decodeFile(fileName, options);
-    options.inJustDecodeBounds = false;
-    options.inSampleSize = calculateSampleSize(options.outWidth, options.outHeight, dstWidth,
-            dstHeight, scalingLogic);    
-    Bitmap retBitmap = null;
-    options.inTempStorage = new byte[64*1024];
-    options.inPurgeable = true;
-    retBitmap = BitmapFactory.decodeStream(new FileInputStream(f), null, options);
-</code></pre>
+<p>Now source code can be downloaded at google code.
+<a href="http://code.google.com/p/path-like-clock/">link</a></p>
 </div>
 
 
@@ -145,7 +133,7 @@ provide buffer to decode bitmap and less memory allocated from native heap code 
   
 
 
-<time datetime="2012-01-17T21:53:00+08:00" pubdate data-updated="true">Jan 17<span>th</span>, 2012</time>
+<time datetime="2012-03-18T21:49:00+08:00" pubdate data-updated="true">Mar 18<span>th</span>, 2012</time>
       
 
 <span class="categories">
@@ -159,7 +147,7 @@ provide buffer to decode bitmap and less memory allocated from native heap code 
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://lesscome.github.com/blog/2012/01/17/tips-to-avoid-bitmap-oom/" data-via="" data-counturl="http://lesscome.github.com/blog/2012/01/17/tips-to-avoid-bitmap-oom/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://lesscome.github.com/blog/2012/03/18/how-to-make-a-clock-of-path2-dot-0-style-on-android/" data-via="" data-counturl="http://lesscome.github.com/blog/2012/03/18/how-to-make-a-clock-of-path2-dot-0-style-on-android/" >Tweet</a>
   
   
   
@@ -168,10 +156,8 @@ provide buffer to decode bitmap and less memory allocated from native heap code 
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2011/12/31/2012-is-coming/" title="Previous Post: 2012 is coming">&laquo; 2012 is coming</a>
+        <a class="basic-alignment left" href="/blog/2012/01/17/tips-to-avoid-bitmap-oom/" title="Previous Post: Tips to avoid bitmap OOM">&laquo; Tips to avoid bitmap OOM</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2012/03/18/how-to-make-a-clock-of-path2-dot-0-style-on-android/" title="next Post: how to make a clock of path2.0 style on android">how to make a clock of path2.0 style on android &raquo;</a>
       
     </p>
   </footer>

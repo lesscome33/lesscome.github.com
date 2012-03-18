@@ -4,7 +4,7 @@
   <title><![CDATA[Category: android | LESSCO.ME]]></title>
   <link href="http://lesscome.github.com/blog/categories/android/atom.xml" rel="self"/>
   <link href="http://lesscome.github.com/"/>
-  <updated>2012-01-18T20:41:08+08:00</updated>
+  <updated>2012-03-18T22:21:48+08:00</updated>
   <id>http://lesscome.github.com/</id>
   <author>
     <name><![CDATA[lesscome]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[how to make a clock of path2.0 style on android]]></title>
+    <link href="http://lesscome.github.com/blog/2012/03/18/how-to-make-a-clock-of-path2-dot-0-style-on-android/"/>
+    <updated>2012-03-18T21:49:00+08:00</updated>
+    <id>http://lesscome.github.com/blog/2012/03/18/how-to-make-a-clock-of-path2-dot-0-style-on-android</id>
+    <content type="html"><![CDATA[<p>If you have been using path 2.0, you must be impressed by it's UI design. It's so great that I installed the app both of iOS and android, and by comparing them, I discovered a little difference between them that a clock shows feed time on iOS but not exists on android. I don't know why they did not develope the clock on android, and no metter what reason is, I'd like to make one.</p>
+
+<p>I don't familiar with animation on android, so it takes some times to look up documentation, finally I did it after about 3 hours.</p>
+
+<p><img src="http://b85.photo.store.qq.com/psb?/880dfc02-646d-4761-8a05-e0bb76f8749e/8jcWEd6Bz*yIKSFl7HUbVa0PwFpj3Yg5mERfhiUYwUk!/b/Ya.VrjIbYQAAYpkxszLiYQAA&amp;w=392&amp;h=5000" alt="image" /></p>
+
+<p>Now source code can be downloaded at google code.
+<a href="http://code.google.com/p/path-like-clock/">link</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Tips to avoid bitmap OOM]]></title>
